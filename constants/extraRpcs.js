@@ -5140,6 +5140,14 @@ export const extraRpcs = {
       }
     ],
   },
+  1921:   {
+    rpcs:  [
+      {
+          url:  "https://https://virtual.optimism.rpc.tenderly.co/34bf1324-c779-48da-b5f7-f1caa8b6b393", 
+          tracking: "yes", 
+          trackingDetails: privacyStatement.tenderly
+      }
+    ],
 };
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
 
